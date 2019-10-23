@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="home.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+    .w3-bar-block .w3-bar-item{padding:10px}
+    </style>
+    <title>New plug🤙</title>
+</head>
+<body>
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:20%;min-width:300px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+    class="w3-bar-item w3-button">❌</a>
+    <a href="home.html" onclick="w3_close()" class="w3-bar-item w3-button">Home🏠</a>
+    <a href="#rank.html" onclick="w3_close()" class="w3-bar-item w3-button">Plug phones📱</a>
+    <a href="#games.html" onclick="w3_close()" class="w3-bar-item w3-button">Plug games🕹</a>
+    <a href="#music.html" onclick="w3_close()" class="w3-bar-item w3-button">Plug music🎵</a>
+    </nav>
+    
+<div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+                <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">🔌</div>
+                <div class="w3-right w3-padding-16">Dev</div>
+                <div class="w3-center w3-padding-16">Plug Phones📱</div>
+</div>
+
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+    
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+                <div class="w3-quarter">
+                  <img src="plug ad\plug4.png" alt="plug one" style="width:50%">
+                 <a href="about:blank"><h3>At plug, we have an aim</h3></a> 
+                  <p>To make a ranking system for phones and have fun.</p>
+                </div>
+                <div class="w3-quarter">
+                  <img src="plug ad\plug 1.png" alt="phone one" style="width:100%">
+                  <a href="about:blank"><h3>The plug phones rank</a></h3></a>
+                  <p>This system will make ranking of phones much easier globally.</p>
+                </div>
+                <div class="w3-quarter">
+                  <img src="plug ad\plug2.png" alt="Keep screening" style="width:50%">
+                  <a href="about:blank"><h3>Plug games</h3></a>
+                  <p>Will want you to keep on playing with the latest html5 games.</p>
+                  <p>Under development.</p>
+                </div>
+                <div class="w3-quarter">
+                  <img src="plug ad\plug3.png" alt="Music" style="width:70%">
+                  <a href="about:blank"><h3>Plug music🎵</h3></a>
+                  <p>When fully developed will become one of the best music streaming sites of the century.</p>
+                </div>
+              </div>
+              <footer class="w3-row-padding w3-padding-32">
+                    <div class="w3-third">
+                      <h3>About</h3>
+                      <p>Just friends making a website.</p>
+                      <p>Powered by <a href="n.d.e.sh" target="_blank">@ n.d.e.sh</a></p>
+                    </div>     
+                    <div class="w3-third">
+                            <h3>Developers</h3>
+                            <ul class="w3-ul w3-hoverable">
+                              <li class="w3-padding-16">
+                                <span class="w3-large">N.d.e.sh</span><br>
+                                <span>Page Design and looks</span>
+                              </li>
+                              <li class="w3-padding-16">
+                                <span class="w3-large">Winstone Were</span><br>
+                                <span>Functions and responsiveness</span>
+                              </li> 
+                              <li class="w3-padding-16">
+                              <span class="w3-large">Newton Toto</span><br>
+                              <span>Designer of plug music and plug games.</span>
+                            </li>
+                            </ul>
+                        </div>
+                <div class="w3-third">
+                <h3>Contacts</h3>
+                <p>Follow us on instagram: @plugphones</p>
+                <p>follow us on twitter: @The plug co</p>
+                Or support us by visiting our developers <a href="about:blank">Portal</a>
+                </div>
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
